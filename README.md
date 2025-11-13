@@ -15,7 +15,7 @@ A flutuação das moedas tem um impacto direto em investimentos, planejamento de
 
 Utilizaremos uma API pública de cotação para garantir dados em tempo real e históricos.
 
-API de Dados Utilizada: [PREENCHER: Nome da API (Ex: AwesomeAPI, Open Exchange Rates)]
+API de Dados Utilizada: Awesome API
 Descrição dos Dados: Coletaremos cotações diárias/horárias de [PREENCHER: Ex: Dólar Americano (USD), Euro (EUR), Iene Japonês (JPY)] contra o Real Brasileiro (BRL) e armazenaremos dados históricos para análise de tendências.
 
 3. Perguntas-Chave a Serem Respondidas
