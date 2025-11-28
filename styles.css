@@ -1,0 +1,36 @@
+/* Título Principal */
+.main-header {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    color: #0E1117;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #FF4B4B; /* Cor padrão do Streamlit */
+}
+
+/* Cards de Métricas */
+div[data-testid="stMetric"] {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Ajuste de Texto de Variação */
+div[data-testid="stMetricDelta"] > div {
+    font-weight: bold;
+}
+
+/* Tabelas */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #f0f2f6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #f0f2f6;
+}

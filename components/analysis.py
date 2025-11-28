@@ -12,9 +12,9 @@ def render_advanced_analysis(metrics_data, df_data, currencies):
 
 
 def render_percentage_changes(metrics_data, currencies):
-    """Exibe variações percentuais — focando em 90 dias"""
+    """Exibe variações percentuais"""
 
-    st.markdown("#### 📈 Variações Percentuais (90 dias)")
+    st.markdown("#### 📈 Variações Percentuais")
 
     cols = st.columns(len(currencies))
 
@@ -26,16 +26,16 @@ def render_percentage_changes(metrics_data, currencies):
 
         with cols[idx]:
             st.metric(
-                label=f"{currency} 90 dias",
+                label=f"{currency} período escolhido",
                 value=format_percentage(change_90d),
                 delta_color=delta_color
             )
 
 
 def render_volatility_analysis(metrics_data, currencies):
-    """Mostra ranking de volatilidade anualizada"""
+    """Mostra ranking de volatilidade"""
 
-    st.markdown("#### 📉 Volatilidade Anualizada")
+    st.markdown("#### 📉 Volatilidade")
 
     vol_list = []
 
